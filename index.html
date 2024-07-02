@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="TAPVid-3D:A Benchmark for Tracking Any Point in 3D">
+  <meta name="keywords" content="TAPVid-3D">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TAPVid-3D:A Benchmark for Tracking Any Point in 3D</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.png">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+
+<body>
+
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+        <a class="navbar-item" href="https://deepmind.com">
+          <span class="icon">
+            <i class="fas fa-home"></i>
+          </span>
+        </a>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            More Research
+          </a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://deepmind-tapir.github.io/">
+              TAPIR
+            </a>
+            <a class="navbar-item" href="https://robotap.github.io/">
+              RoboTAP
+            </a>
+            <a class="navbar-item" href="https://deepmind-tapir.github.io/blogpost.html">
+              TAPIR Blog Post
+            </a>
+            <a class="navbar-item" href="https://bootstap.github.io/">
+              BootsTAP
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">TAPVid-3D:A Benchmark for Tracking Any Point in 3D</h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://skoppula.com/">Skanda Koppula</a><sup>1,2</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://www.irocco.info/">Ignacio Rocco</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://yangyi02.github.io">Yi Yang</a><sup>1</sup>
+              </span>              
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=kbqjyGQAAAAJ">Joe Heyward</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://scholar.google.co.uk/citations?user=IUZ-7_cAAAAJ">João Carreira</a><sup>1</sup>
+              </span>
+              <span class="author-block">
+                <a href="https://www.robots.ox.ac.uk/~az/">Andrew Zisserman</a><sup>1,3</sup>
+              </span>
+              <span class="author-block">
+                <a href="http://www0.cs.ucl.ac.uk/staff/g.brostow/">Gabriel Brostow</a><sup>2</sup>,
+              </span>
+              <span class="author-block">
+                <a href="http://www.carldoersch.com/">Carl Doersch</a><sup>1</sup>,
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>Google DeepMind,</span>
+              <span class="author-block"><sup>2</sup>University College London,</span>
+              <span class="author-block"><sup>3</sup>University of Oxford</span>
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <span class="link-block">
+                  <a href="https://openreview.net/pdf?id=Zmosb2KfzYd"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2211.03726" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://github.com/deepmind/tapnet"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Data & Code</span>
+                  </a>
+                </span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <div class="publication-video" style="padding-bottom: 55%">
+              <video id="teaser" autoplay controls muted loop playsinline height="100%">
+                <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/tapvid3d_zoom_v1.mp4" type="video/mp4">
+              </video>
+            </div>
+            <p>
+              Visualization of TAPVid-3D Dataset with Ground-Truth Point Tracks
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              We introduce a new benchmark, TAPVid-3D, for evaluating the task of long-rangeTracking Any Point in 3D (TAP-3D). While point tracking in two dimensions (TAP-2D) has many benchmarks measuring performance on real-world videos,such as TAPVid-DAVIS, three-dimensional point tracking has none. To this end, leveraging existing footage, we build a new benchmark for 3D point tracking fea-turing 4,000+ real-world videos, composed of three different data sources spanninga variety of object types, motion patterns, and indoor and outdoor environments. To measure performance on the TAP-3D task, we formulate a collection of metricsthat extend the Jaccard-based metric used in TAP-2D to handle the complexities ofambiguous depth scales across models, occlusions, and multi-track spatio-temporalsmoothness. We manually verify a large sample of trajectories to ensure correctvideo annotations, and assess the current state of the TAP-3D task by constructingcompetitive baselines using existing tracking models. We anticipate this benchmarkwill serve as a guidepost to improve our ability to understand precise 3D motionand surface deformation from monocular video.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Video Summary</h2>
+          <a href="https://nips.cc/virtual/2022/poster/55696">
+            <img src="static/images/neurips.png" alt="Video Summary">
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container is-max-desktop">
+
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Annotation Workflow</h2>
+          <div class="publication-video" style="padding-bottom: 50%">
+            <video id="teaser" autoplay muted loop playsinline height="100%">
+              <source src="https://storage.googleapis.com/dm-tapnet/annotation_screen_capture.mov" type="video/mp4">
+            </video>
+          </div>
+          <div class="content has-text-justified">
+            <p>
+              A screen capture showing the typical annotation workflow and usage of the web-interface while annotating
+              three point tracks in a brief video. For brevity, we used points where the optical flow based tracker
+              worked exceptionally well and no further refinement was required, although this is not the general case.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <div class="content">
+
+            <h2 class="title is-3">Aria Digital Twins</h2>
+            <div class="container">
+              <div id="results-carousel" class="carousel results-carousel">
+                <div class="item">
+                  <video poster="" autoplay controls muted loop playsinline height="100%">
+                    <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/adt/2d_3d/Apartment_release_clean_seq140_3.mp4"
+                      type="video/mp4">
+                  </video>
+                </div>
+                <div class="item">
+                  <video poster="" autoplay controls muted loop playsinline height="100%">
+                    <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/adt/2d_3d/Apartment_release_meal_seq132_7.mp4"
+                      type="video/mp4">
+                  </video>
+                </div>
+                <div class="item">
+                  <video poster="" autoplay controls muted loop playsinline height="100%">
+                    <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/adt/2d_3d/Apartment_release_multiskeleton_party_seq117_4.mp4"
+                      type="video/mp4">
+                  </video>
+                </div>
+                <div class="item">
+                  <video poster="" autoplay controls muted loop playsinline height="100%">
+                    <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/adt/2d_3d/Apartment_release_multiuser_clean_seq114_0.mp4"
+                      type="video/mp4">
+                  </video>
+                </div>
+                <div class="item">
+                  <video poster="" autoplay controls muted loop playsinline height="100%">
+                    <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/adt/2d_3d/Apartment_release_work_seq106_2.mp4"
+                      type="video/mp4">
+                  </video>
+                </div>
+                <div class="item">
+                  <video poster="" autoplay controls muted loop playsinline height="100%">
+                    <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/adt/2d_3d/Lite_release_recognition_BirdHouseToy_seq030_6.mp4">
+                  </video>
+                </div>
+              </div>
+            </div>
+
+            <h2 class="title is-3">Drive Track</h2>
+            <div class="container">
+              <div id="results-carousel" class="carousel results-carousel">
+                <div class="item">
+                  <video poster="" autoplay controls muted loop playsinline height="100%">
+                    <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/drivetrack/2d_3d/tapvid3d_1022527355599519580_4866_960_4886_960_2_L58RM2TH_i-3sYbjr6JjQQ.mp4"
+                      type="video/mp4">
+                  </video>
+                </div>
+                <div class="item">
+                  <video poster="" autoplay controls muted loop playsinline height="100%">
+                    <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/drivetrack/2d_3d/tapvid3d_11940460932056521663_1760_000_1780_000_1_VvP3Pijy57rez0dxOvGajQ.mp4"
+                      type="video/mp4">
+                  </video>
+                </div>
+                <div class="item">
+                  <video poster="" autoplay controls muted loop playsinline height="100%">
+                    <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/drivetrack/2d_3d/tapvid3d_33101359476901423_6720_910_6740_910_3_JNFn13if2djGYt0wQ682cw.mp4"
+                      type="video/mp4">
+                  </video>
+                </div>
+                <div class="item">
+                  <video poster="" autoplay controls muted loop playsinline height="100%">
+                    <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/drivetrack/2d_3d/tapvid3d_4967385055468388261_720_000_740_000_3_8I6i37GamzdjGA0aVXFyrw.mp4"
+                      type="video/mp4">
+                  </video>
+                </div>
+                <div class="item">
+                  <video poster="" autoplay controls muted loop playsinline height="100%">
+                    <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/drivetrack/2d_3d/tapvid3d_5495302100265783181_80_000_100_000_1_Hb9oGoCRgYCdPA_DtouLKQ.mp4"
+                      type="video/mp4">
+                  </video>
+                </div>
+                <div class="item">
+                  <video poster="" autoplay controls muted loop playsinline height="100%">
+                    <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/drivetrack/2d_3d/tapvid3d_7089765864827567005_1020_000_1040_000_3_qXPrSpe3gRXqM88J3-2zlw.mp4"
+                      type="video/mp4">
+                  </video>
+                </div>
+              </div>
+            </div>
+
+            <h2 class="title is-3">Panoptic Studio</h2>
+            <div class="container">
+              <div id="results-carousel" class="carousel results-carousel">
+                <div class="item">
+                  <video poster="" autoplay controls muted loop playsinline height="100%">
+                    <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/pstudio/2d_3d/basketball_13.mp4"
+                      type="video/mp4">
+                  </video>
+                </div>
+                <div class="item">
+                  <video poster="" autoplay controls muted loop playsinline height="100%">
+                    <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/pstudio/2d_3d/boxes_11.mp4"
+                      type="video/mp4">
+                  </video>
+                </div>
+                <div class="item">
+                  <video poster="" autoplay controls muted loop playsinline height="100%">
+                    <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/pstudio/2d_3d/football_1.mp4"
+                      type="video/mp4">
+                  </video>
+                </div>
+                <div class="item">
+                  <video poster="" autoplay controls muted loop playsinline height="100%">
+                    <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/pstudio/2d_3d/juggle_22.mp4"
+                      type="video/mp4">
+                  </video>
+                </div>
+                <div class="item">
+                  <video poster="" autoplay controls muted loop playsinline height="100%">
+                    <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/pstudio/2d_3d/softball_14.mp4"
+                      type="video/mp4">
+                  </video>
+                </div>
+                <div class="item">
+                  <video poster="" autoplay controls muted loop playsinline height="100%">
+                    <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/pstudio/2d_3d/tennis_17.mp4"
+                      type="video/mp4">
+                  </video>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Interactive Demo</h2>
+          <p>
+            <a href="https://storage.googleapis.com/dm-tapnet/tapvid3d/interactive_visual_minival/Apartment_release_clean_seq140_3.html">Aria Digital Twin</a>
+          </p>
+          <p>
+            <a href="https://storage.googleapis.com/dm-tapnet/tapvid3d/interactive_visual_minival/basketball_13.html">Panoptic Studio</a>
+          </p>
+          <p>
+            <a href="https://storage.googleapis.com/dm-tapnet/tapvid3d/interactive_visual_minival/tapvid3d_1022527355599519580_4866_960_4886_960_2_L58RM2TH_i-3sYbjr6JjQQ.html">Drive Track</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Licensing</h2>
+          <p>
+            The annotations of TAPVid-3D are released under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons BY license</a>. The original source videos of DAVIS come from the val set, and are also licensed under
+            creative commons licenses per their creators; see the <a href="https://davischallenge.org/davis2017/code.html">DAVIS dataset</a> for details. Kinetics videos are publicly available on YouTube, but subject to their own individual licenses. See the <a href="https://www.deepmind.com/open-source/kinetics">Kinetics dataset webpage</a> for details.
+          </p>
+        </div>
+      </div>
+
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3">Related Links</h2>
+          <div class="content has-text-justified">
+            <p>
+              <a href="https://pointodyssey.com/">Pointodyssey: A large-scale synthetic dataset for long-term point tracking</a> propose a large-scale synthetic dataset and data generation framework for 3D dynamic scenes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <a class="icon-link" href="https://arxiv.org/abs/2211.03726">
+          <i class="fas fa-file-pdf"></i>
+        </a>
+        <a class="icon-link" href="https://github.com/deepmind/tapnet" class="external-link" disabled>
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+            <p>
+              This means you are free to borrow the <a href="https://github.com/tapvid3d/tapvid3d.github.io">source code</a> of this website, which itelf is a fork of <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>. We just ask that you link back to this page in the footer.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
