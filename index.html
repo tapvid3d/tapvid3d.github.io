@@ -173,12 +173,12 @@
           <h2 class="title is-3">What is the dataset?</h2>
           <div class="content has-text-justified">
             <p>
-              We excited to release a new benchmark, TAPVid-3D, for evaluating the task of long-range Tracking Any Point in 3D (TAP-3D). This dataset consists of 4,000+ real-world videos and 2.1 million metric 3D point trajectories, spanning a variety of object types, motion patterns, and indoor and outdoor environments.
-              
-              While point tracking in two dimensions (TAP-2D) has many benchmarks measuring performance on real-world videos, such as TAPVid-DAVIS [1], three-dimensional point tracking has none. To this end, leveraging existing footage, we built a new benchmark for 3D point tracking.
-              
+              TAPVid-3D is a dataset and benchmark for evaluating the task of long-range Tracking Any Point in 3D (TAP-3D). The dataset consists of 4,000+ real-world videos and 2.1 million metric 3D point trajectories, spanning a variety of object types, motion patterns, and indoor and outdoor environments.
+              <br><br>
+              While point tracking in two dimensions (TAP-2D) has many benchmarks measuring performance on real-world videos, such as TAPVid-DAVIS [2], three-dimensional point tracking has none. To this end, leveraging existing footage, we built a new benchmark for 3D point tracking.
+              <br><br>
               To measure performance on the TAP-3D task, we formulated a Jaccard-based metric to handle the complexities of ambiguous depth scales across models, occlusions, and multi-track spatio-temporal smoothness.
-              
+              <br><br>
               In the paper, we assess the current state of the TAP-3D task by constructing competitive baselines using existing tracking models, such as SpatialTracker. We hope you'll find the benchmark useful!
             </p>
           </div>
@@ -203,6 +203,7 @@
           <div class="content">
 
             <h2 class="title is-3">Dataset Samples</h2>
+            
             <div class="container">
               <div id="results-carousel" class="carousel results-carousel">
                 <div class="item">
@@ -243,7 +244,6 @@
               </div>
             </div>
 
-            <h2 class="title is-3">Drive Track</h2>
             <div class="container">
               <div id="results-carousel" class="carousel results-carousel">
                 <div class="item">
@@ -285,7 +285,6 @@
               </div>
             </div>
 
-            <h2 class="title is-3">Panoptic Studio</h2>
             <div class="container">
               <div id="results-carousel" class="carousel results-carousel">
                 <div class="item">
@@ -360,16 +359,16 @@
           <h2 class="title is-3">Related Links</h2>
           <div class="content has-text-justified">
             <p>
-              <a href="https://github.com/google-research/kubric">Kubric: A scalable dataset generator</a> is a data generation pipeline for creating semi-realistic synthetic multi-object videos with rich annotations such as instance segmentation masks, depth maps, and optical flow.
+              1. <a href="https://github.com/google-research/kubric">Kubric: A scalable dataset generator</a> is a data generation pipeline for creating semi-realistic synthetic multi-object videos with rich annotations such as instance segmentation masks, depth maps, and optical flow.
             </p>
             <p>
-              <a href="https://tapvid.github.io/">TAP-Vid: A Benchmark for Tracking Any Point in a Video</a> builds an evaluation dataset with 2D points tracked across real videos.
+              2. <a href="https://tapvid.github.io/">TAP-Vid: A Benchmark for Tracking Any Point in a Video</a> builds an evaluation dataset with 2D points tracked across real videos.
             </p>
             <p>
-              <a href="https://pointodyssey.com/">Pointodyssey: A large-scale synthetic dataset for long-term point tracking</a> propose a large-scale synthetic dataset and data generation framework for 3D dynamic scenes.
+              3. <a href="https://pointodyssey.com/">Pointodyssey: A large-scale synthetic dataset for long-term point tracking</a> propose a large-scale synthetic dataset and data generation framework for 3D dynamic scenes.
             </p>
             <p>
-              <a href="https://henry123-boy.github.io/SpaTracker/">SpatialTracker: Tracking Any 2D Pixels in 3D Space</a> estimates point trajectories in 3D space and runs 2D tracking evaluation.
+              4. <a href="https://henry123-boy.github.io/SpaTracker/">SpatialTracker: Tracking Any 2D Pixels in 3D Space</a> estimates point trajectories in 3D space and runs 2D tracking evaluation.
             </p>
           </div>
         </div>
