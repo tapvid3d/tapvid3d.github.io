@@ -9,6 +9,7 @@
   <title>TAPVid-3D: A Benchmark for Tracking Any Point in 3D</title>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <link rel="stylesheet" href="./static/css/bulma.min.css">
   <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
@@ -152,9 +153,9 @@
       <div class="hero-body">
         <div class="columns is-centered has-text-centered">
           <div class="column is-four-fifths">
-            <div class="publication-video" style="padding-bottom: 55%">
+            <div class="publication-video" style="padding-bottom: 38%">
               <video id="teaser" autoplay controls muted loop playsinline height="100%">
-                <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/tapvid3d_zoom_v1.mp4" type="video/mp4">
+                <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/tapvid3d_zoom_v4_2.mp4" type="video/mp4">
               </video>
             </div>
             <p>
@@ -195,123 +196,294 @@
             
             <div class="container">
               <div id="results-carousel" class="carousel results-carousel">
+                <!-- First Carousel Item -->
                 <div class="item">
-                  <video poster="" autoplay controls muted loop playsinline height="100%">
-                    <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/adt/2d_3d/Apartment_release_clean_seq140_3.mp4"
-                      type="video/mp4">
-                  </video>
+                  <table>
+                    <tr>
+                      <td class="d-flex align-items-center justify-content-center">
+                        <video poster="" autoplay controls muted loop playsinline height="100%">
+                          <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/adt/2d_3d/Apartment_release_work_seq109_7.mp4"
+                            type="video/mp4">
+                        </video> 
+                      </td>
+                      <td class="text-center">
+                        <button class="btn btn-primary" onclick="openPopup('https://storage.googleapis.com/dm-tapnet/tapvid3d/interactive_visual_minival/Apartment_release_work_seq109_7.html')">
+                          Load Interactive 3D
+                        </button>
+                      </td>
+                    </tr>
+                  </table>
                 </div>
+                
+                <!-- Second Carousel Item -->
                 <div class="item">
-                  <video poster="" autoplay controls muted loop playsinline height="100%">
-                    <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/adt/2d_3d/Apartment_release_meal_seq132_7.mp4"
-                      type="video/mp4">
-                  </video>
+                  <table>
+                    <tr>
+                      <td class="d-flex align-items-center justify-content-center">
+                        <video poster="" autoplay controls muted loop playsinline height="100%">
+                          <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/adt/2d_3d/Apartment_release_clean_seq145_7.mp4"
+                            type="video/mp4">
+                        </video> 
+                      </td>
+                      <td class="text-center">
+                        <button class="btn btn-primary" onclick="openPopup('https://storage.googleapis.com/dm-tapnet/tapvid3d/interactive_visual_minival/Apartment_release_clean_seq145_7.html')">
+                          Load Interactive 3D
+                        </button>
+                      </td>
+                    </tr>
+                  </table>
                 </div>
+                
+                <!-- Repeat for the remaining carousel items -->
                 <div class="item">
-                  <video poster="" autoplay controls muted loop playsinline height="100%">
-                    <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/adt/2d_3d/Apartment_release_multiskeleton_party_seq117_4.mp4"
-                      type="video/mp4">
-                  </video>
+                  <table>
+                    <tr>
+                      <td class="d-flex align-items-center justify-content-center">
+                        <video poster="" autoplay controls muted loop playsinline height="100%">
+                          <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/adt/2d_3d/Lite_release_recognition_BirdHouseToy_seq030_6.mp4"
+                            type="video/mp4">
+                        </video> 
+                      </td>
+                      <td class="text-center">
+                        <button class="btn btn-primary" onclick="openPopup('https://storage.googleapis.com/dm-tapnet/tapvid3d/interactive_visual_minival/Lite_release_recognition_BirdHouseToy_seq030_6.html')">
+                          Load Interactive 3D
+                        </button>
+                      </td>
+                    </tr>
+                  </table>
                 </div>
+                <!-- Repeat for the remaining carousel items -->
                 <div class="item">
-                  <video poster="" autoplay controls muted loop playsinline height="100%">
-                    <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/adt/2d_3d/Apartment_release_multiuser_clean_seq114_0.mp4"
-                      type="video/mp4">
-                  </video>
+                  <table>
+                    <tr>
+                      <td class="d-flex align-items-center justify-content-center">
+                        <video poster="" autoplay controls muted loop playsinline height="100%">
+                          <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/adt/2d_3d/Lite_release_recognition_BlackCeramicBowl_seq033_3.mp4"
+                            type="video/mp4">
+                        </video> 
+                      </td>
+                      <td class="text-center">
+                        <button class="btn btn-primary" onclick="openPopup('https://storage.googleapis.com/dm-tapnet/tapvid3d/interactive_visual_minival/Lite_release_recognition_BlackCeramicBowl_seq033_3.html')">
+                          Load Interactive 3D
+                        </button>
+                      </td>
+                    </tr>
+                  </table>
                 </div>
+                <!-- Repeat for the remaining carousel items -->
                 <div class="item">
-                  <video poster="" autoplay controls muted loop playsinline height="100%">
-                    <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/adt/2d_3d/Apartment_release_work_seq106_2.mp4"
-                      type="video/mp4">
-                  </video>
+                  <table>
+                    <tr>
+                      <td class="d-flex align-items-center justify-content-center">
+                        <video poster="" autoplay controls muted loop playsinline height="100%">
+                          <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/adt/2d_3d/Apartment_release_multiuser_party_seq134_7.mp4"
+                            type="video/mp4">
+                        </video> 
+                      </td>
+                      <td class="text-center">
+                        <button class="btn btn-primary" onclick="openPopup('https://storage.googleapis.com/dm-tapnet/tapvid3d/interactive_visual_minival/Apartment_release_multiuser_party_seq134_7.html')">
+                          Load Interactive 3D
+                        </button>
+                      </td>
+                    </tr>
+                  </table>
                 </div>
-                <div class="item">
-                  <video poster="" autoplay controls muted loop playsinline height="100%">
-                    <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/adt/2d_3d/Lite_release_recognition_BirdHouseToy_seq030_6.mp4">
-                  </video>
-                </div>
+
               </div>
             </div>
 
             <div class="container">
               <div id="results-carousel" class="carousel results-carousel">
+                <!-- First Carousel Item -->
                 <div class="item">
-                  <video poster="" autoplay controls muted loop playsinline height="100%">
-                    <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/drivetrack/2d_3d/tapvid3d_1022527355599519580_4866_960_4886_960_2_L58RM2TH_i-3sYbjr6JjQQ.mp4"
-                      type="video/mp4">
-                  </video>
+                  <table>
+                    <tr>
+                      <td class="d-flex align-items-center justify-content-center">
+                        <video poster="" autoplay controls muted loop playsinline height="100%">
+                          <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/drivetrack/2d_3d/tapvid3d_16042886962142359737_1060_000_1080_000_1_-UuWM0RiGK5o-uBrPllMrQ.mp4"
+                            type="video/mp4">
+                        </video> 
+                      </td>
+                      <td class="text-center">
+                        <button class="btn btn-primary" onclick="openPopup('https://storage.googleapis.com/dm-tapnet/tapvid3d/interactive_visual_minival/tapvid3d_16042886962142359737_1060_000_1080_000_1_-UuWM0RiGK5o-uBrPllMrQ.html')">
+                          Load Interactive 3D
+                        </button>
+                      </td>
+                    </tr>
+                  </table>
                 </div>
+                
+                <!-- Second Carousel Item -->
                 <div class="item">
-                  <video poster="" autoplay controls muted loop playsinline height="100%">
-                    <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/drivetrack/2d_3d/tapvid3d_11940460932056521663_1760_000_1780_000_1_VvP3Pijy57rez0dxOvGajQ.mp4"
-                      type="video/mp4">
-                  </video>
+                  <table>
+                    <tr>
+                      <td class="d-flex align-items-center justify-content-center">
+                        <video poster="" autoplay controls muted loop playsinline height="100%">
+                          <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/drivetrack/2d_3d/tapvid3d_15578655130939579324_620_000_640_000_2_LcTHEaU9_O9lx0ktOeLrBg.mp4"
+                            type="video/mp4">
+                        </video> 
+                      </td>
+                      <td class="text-center">
+                        <button class="btn btn-primary" onclick="openPopup('https://storage.googleapis.com/dm-tapnet/tapvid3d/interactive_visual_minival/tapvid3d_15578655130939579324_620_000_640_000_2_LcTHEaU9_O9lx0ktOeLrBg.html')">
+                          Load Interactive 3D
+                        </button>
+                      </td>
+                    </tr>
+                  </table>
                 </div>
+                
+                <!-- Repeat for the remaining carousel items -->
                 <div class="item">
-                  <video poster="" autoplay controls muted loop playsinline height="100%">
-                    <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/drivetrack/2d_3d/tapvid3d_33101359476901423_6720_910_6740_910_3_JNFn13if2djGYt0wQ682cw.mp4"
-                      type="video/mp4">
-                  </video>
+                  <table>
+                    <tr>
+                      <td class="d-flex align-items-center justify-content-center">
+                        <video poster="" autoplay controls muted loop playsinline height="100%">
+                          <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/drivetrack/2d_3d/tapvid3d_16578409328451172992_3780_000_3800_000_1_U-FL_r6V59Ml1puP3Ra7hQ.mp4"
+                            type="video/mp4">
+                        </video> 
+                      </td>
+                      <td class="text-center">
+                        <button class="btn btn-primary" onclick="openPopup('https://storage.googleapis.com/dm-tapnet/tapvid3d/interactive_visual_minival/tapvid3d_16578409328451172992_3780_000_3800_000_1_U-FL_r6V59Ml1puP3Ra7hQ.html')">
+                          Load Interactive 3D
+                        </button>
+                      </td>
+                    </tr>
+                  </table>
                 </div>
+                <!-- Repeat for the remaining carousel items -->
                 <div class="item">
-                  <video poster="" autoplay controls muted loop playsinline height="100%">
-                    <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/drivetrack/2d_3d/tapvid3d_4967385055468388261_720_000_740_000_3_8I6i37GamzdjGA0aVXFyrw.mp4"
-                      type="video/mp4">
-                  </video>
+                  <table>
+                    <tr>
+                      <td class="d-flex align-items-center justify-content-center">
+                        <video poster="" autoplay controls muted loop playsinline height="100%">
+                          <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/drivetrack/2d_3d/tapvid3d_16105359875195888139_4420_000_4440_000_2_yqvi3P9YV-xoDyx3PZKEIw.mp4"
+                            type="video/mp4">
+                        </video> 
+                      </td>
+                      <td class="text-center">
+                        <button class="btn btn-primary" onclick="openPopup('https://storage.googleapis.com/dm-tapnet/tapvid3d/interactive_visual_minival/tapvid3d_16105359875195888139_4420_000_4440_000_2_yqvi3P9YV-xoDyx3PZKEIw.html')">
+                          Load Interactive 3D
+                        </button>
+                      </td>
+                    </tr>
+                  </table>
                 </div>
+                <!-- Repeat for the remaining carousel items -->
                 <div class="item">
-                  <video poster="" autoplay controls muted loop playsinline height="100%">
-                    <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/drivetrack/2d_3d/tapvid3d_5495302100265783181_80_000_100_000_1_Hb9oGoCRgYCdPA_DtouLKQ.mp4"
-                      type="video/mp4">
-                  </video>
+                  <table>
+                    <tr>
+                      <td class="d-flex align-items-center justify-content-center">
+                        <video poster="" autoplay controls muted loop playsinline height="100%">
+                          <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/drivetrack/2d_3d/tapvid3d_14018515129165961775_483_260_503_260_3_AkhfkQrkuIYeFOVdMEji4A.mp4" type="video/mp4">
+                        </video> 
+                      </td>
+                      <td class="text-center">
+                        <button class="btn btn-primary" onclick="openPopup('https://storage.googleapis.com/dm-tapnet/tapvid3d/interactive_visual_minival/tapvid3d_14018515129165961775_483_260_503_260_3_AkhfkQrkuIYeFOVdMEji4A.html')">
+                          Load Interactive 3D
+                        </button>
+                      </td>
+                    </tr>
+                  </table>
                 </div>
-                <div class="item">
-                  <video poster="" autoplay controls muted loop playsinline height="100%">
-                    <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/drivetrack/2d_3d/tapvid3d_7089765864827567005_1020_000_1040_000_3_qXPrSpe3gRXqM88J3-2zlw.mp4"
-                      type="video/mp4">
-                  </video>
-                </div>
+
               </div>
             </div>
 
             <div class="container">
               <div id="results-carousel" class="carousel results-carousel">
+                <!-- First Carousel Item -->
                 <div class="item">
-                  <video poster="" autoplay controls muted loop playsinline height="100%">
-                    <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/pstudio/2d_3d/basketball_13.mp4"
-                      type="video/mp4">
-                  </video>
+                  <table>
+                    <tr>
+                      <td class="d-flex align-items-center justify-content-center">
+                        <video poster="" autoplay controls muted loop playsinline height="100%">
+                          <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/pstudio/2d_3d/basketball_3.mp4"
+                            type="video/mp4">
+                        </video> 
+                      </td>
+                      <td class="text-center">
+                        <button class="btn btn-primary" onclick="openPopup('https://storage.googleapis.com/dm-tapnet/tapvid3d/interactive_visual_minival/basketball_3.html')">
+                          Load Interactive 3D
+                        </button>
+                      </td>
+                    </tr>
+                  </table>
                 </div>
+                
+                <!-- Second Carousel Item -->
                 <div class="item">
-                  <video poster="" autoplay controls muted loop playsinline height="100%">
-                    <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/pstudio/2d_3d/boxes_11.mp4"
-                      type="video/mp4">
-                  </video>
+                  <table>
+                    <tr>
+                      <td class="d-flex align-items-center justify-content-center">
+                        <video poster="" autoplay controls muted loop playsinline height="100%">
+                          <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/pstudio/2d_3d/juggle_22.mp4"
+                            type="video/mp4">
+                        </video> 
+                      </td>
+                      <td class="text-center">
+                        <button class="btn btn-primary" onclick="openPopup('https://storage.googleapis.com/dm-tapnet/tapvid3d/interactive_visual_minival/juggle_22.html')">
+                          Load Interactive 3D
+                        </button>
+                      </td>
+                    </tr>
+                  </table>
                 </div>
+                
+                <!-- Repeat for the remaining carousel items -->
                 <div class="item">
-                  <video poster="" autoplay controls muted loop playsinline height="100%">
-                    <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/pstudio/2d_3d/football_1.mp4"
-                      type="video/mp4">
-                  </video>
+                  <table>
+                    <tr>
+                      <td class="d-flex align-items-center justify-content-center">
+                        <video poster="" autoplay controls muted loop playsinline height="100%">
+                          <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/pstudio/2d_3d/boxes_28.mp4"
+                            type="video/mp4">
+                        </video> 
+                      </td>
+                      <td class="text-center">
+                        <button class="btn btn-primary" onclick="openPopup('https://storage.googleapis.com/dm-tapnet/tapvid3d/interactive_visual_minival/boxes_28.html')">
+                          Load Interactive 3D
+                        </button>
+                      </td>
+                    </tr>
+                  </table>
                 </div>
+                <!-- Repeat for the remaining carousel items -->
                 <div class="item">
-                  <video poster="" autoplay controls muted loop playsinline height="100%">
-                    <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/pstudio/2d_3d/juggle_22.mp4"
-                      type="video/mp4">
-                  </video>
+                  <table>
+                    <tr>
+                      <td class="d-flex align-items-center justify-content-center">
+                        <video poster="" autoplay controls muted loop playsinline height="100%">
+                          <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/pstudio/2d_3d/tennis_28.mp4"
+                            type="video/mp4">
+                        </video> 
+                      </td>
+                      <td class="text-center">
+                        <button class="btn btn-primary" onclick="openPopup('https://storage.googleapis.com/dm-tapnet/tapvid3d/interactive_visual_minival/tennis_28.html')">
+                          Load Interactive 3D
+                        </button>
+                      </td>
+                    </tr>
+                  </table>
                 </div>
+                <!-- Repeat for the remaining carousel items -->
                 <div class="item">
-                  <video poster="" autoplay controls muted loop playsinline height="100%">
-                    <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/pstudio/2d_3d/softball_14.mp4"
-                      type="video/mp4">
-                  </video>
+                  <table>
+                    <tr>
+                      <td class="d-flex align-items-center justify-content-center">
+                        <video poster="" autoplay controls muted loop playsinline height="100%">
+                          <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/pstudio/2d_3d/football_29.mp4"
+                            type="video/mp4">
+                        </video> 
+                      </td>
+                      <td class="text-center">
+                        <button class="btn btn-primary" onclick="openPopup('https://storage.googleapis.com/dm-tapnet/tapvid3d/interactive_visual_minival/football_29.html')">
+                          Load Interactive 3D
+                        </button>
+                      </td>
+                    </tr>
+                  </table>
                 </div>
-                <div class="item">
-                  <video poster="" autoplay controls muted loop playsinline height="100%">
-                    <source src="https://storage.googleapis.com/dm-tapnet/tapvid3d/rainbow_viz_occ2/pstudio/2d_3d/tennis_17.mp4"
-                      type="video/mp4">
-                  </video>
-                </div>
+
               </div>
             </div>
 
@@ -328,37 +500,6 @@
         </div>
       </div>
     </div> -->
-      
-<!--       <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          <h2 class="title is-3">Interactive Demo</h2>
-          <p>
-            <a href="https://storage.googleapis.com/dm-tapnet/tapvid3d/interactive_visual_minival/Apartment_release_clean_seq140_3.html">Aria Digital Twin</a>
-          </p>
-          <p>
-            <a href="https://storage.googleapis.com/dm-tapnet/tapvid3d/interactive_visual_minival/basketball_13.html">Panoptic Studio</a>
-          </p>
-          <p>
-            <a href="https://storage.googleapis.com/dm-tapnet/tapvid3d/interactive_visual_minival/tapvid3d_1022527355599519580_4866_960_4886_960_2_L58RM2TH_i-3sYbjr6JjQQ.html">Drive Track</a>
-          </p>
-        </div>
-      </div> -->
-
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          <h2 class="title is-3">Interactive Demo</h2>
-          Try our demo below for further interaction with the dataset!
-          <p>
-            <a href="video_visualizations/adt.html">Aria Digital Twin</a>
-          </p>
-          <p>
-            <a href="video_visualizations/drivetrack.html">Drive Track</a>
-          </p>
-          <p>
-            <a href="video_visualizations/pstudio.html">Panoptic Studio</a>
-          </p>
-        </div>
-      </div>
 
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
@@ -417,6 +558,15 @@
       </div>
     </div>
   </footer>
+
+  <script>
+    function openPopup(htmlFilePath) {
+      const popup = window.open(htmlFilePath, '3D Popup', 'width=800,height=800'); // Use passed path
+      if (popup === null || typeof popup === 'undefined') {
+        alert('Please disable your popup blocker to view the interactive 3D content.');
+      }
+    }
+  </script>
 
 </body>
 
