@@ -2,279 +2,86 @@ WEBVTT
 Kind: captions
 Language: en
 
-00:00:00.080 --> 00:00:02.950 align:start position:0%
- 
-we<00:00:00.280><c> present</c><00:00:00.680><c> tap</c><00:00:01.000><c> vid</c><00:00:01.319><c> 3D</c><00:00:02.120><c> a</c><00:00:02.280><c> benchmark</c><00:00:02.760><c> for</c>
-
-00:00:02.950 --> 00:00:02.960 align:start position:0%
-we present tap vid 3D a benchmark for
- 
-
-00:00:02.960 --> 00:00:04.670 align:start position:0%
-we present tap vid 3D a benchmark for
-tracking<00:00:03.360><c> any</c><00:00:03.600><c> point</c><00:00:03.879><c> in</c>
-
-00:00:04.670 --> 00:00:04.680 align:start position:0%
-tracking any point in
- 
-
-00:00:04.680 --> 00:00:07.230 align:start position:0%
-tracking any point in
-3D<00:00:05.680><c> understanding</c><00:00:06.000><c> fine</c><00:00:06.319><c> grained</c><00:00:06.720><c> Motion</c><00:00:07.080><c> in</c>
-
-00:00:07.230 --> 00:00:07.240 align:start position:0%
-3D understanding fine grained Motion in
- 
-
-00:00:07.240 --> 00:00:09.350 align:start position:0%
-3D understanding fine grained Motion in
-3D<00:00:07.759><c> facilitates</c><00:00:08.559><c> accurate</c><00:00:08.960><c> robot</c>
-
-00:00:09.350 --> 00:00:09.360 align:start position:0%
-3D facilitates accurate robot
- 
-
-00:00:09.360 --> 00:00:11.870 align:start position:0%
-3D facilitates accurate robot
-manipulation<00:00:10.360><c> enriches</c><00:00:10.920><c> controllable</c><00:00:11.519><c> video</c>
-
-00:00:11.870 --> 00:00:11.880 align:start position:0%
-manipulation enriches controllable video
- 
-
-00:00:11.880 --> 00:00:14.669 align:start position:0%
-manipulation enriches controllable video
-generation<00:00:12.679><c> and</c><00:00:12.880><c> improves</c><00:00:13.400><c> General</c><00:00:13.719><c> scene</c>
-
-00:00:14.669 --> 00:00:14.679 align:start position:0%
-generation and improves General scene
- 
-
-00:00:14.679 --> 00:00:16.630 align:start position:0%
-generation and improves General scene
-understanding<00:00:15.679><c> in</c><00:00:15.799><c> order</c><00:00:16.119><c> to</c><00:00:16.240><c> measure</c>
-
-00:00:16.630 --> 00:00:16.640 align:start position:0%
-understanding in order to measure
- 
-
-00:00:16.640 --> 00:00:19.029 align:start position:0%
-understanding in order to measure
-progress<00:00:17.000><c> in</c><00:00:17.199><c> 3d</c><00:00:17.640><c> motion</c><00:00:18.359><c> understanding</c><00:00:18.880><c> we</c>
-
-00:00:19.029 --> 00:00:19.039 align:start position:0%
-progress in 3d motion understanding we
- 
-
-00:00:19.039 --> 00:00:21.470 align:start position:0%
-progress in 3d motion understanding we
-build<00:00:19.359><c> the</c><00:00:19.520><c> tap</c><00:00:19.800><c> vid</c><00:00:20.080><c> 3D</c><00:00:20.519><c> Benchmark</c><00:00:21.320><c> a</c>
-
-00:00:21.470 --> 00:00:21.480 align:start position:0%
-build the tap vid 3D Benchmark a
- 
-
-00:00:21.480 --> 00:00:24.630 align:start position:0%
-build the tap vid 3D Benchmark a
-benchmark<00:00:21.960><c> for</c><00:00:22.119><c> tracking</c><00:00:22.560><c> any</c><00:00:22.800><c> point</c><00:00:23.080><c> in</c><00:00:23.640><c> 3D</c>
-
-00:00:24.630 --> 00:00:24.640 align:start position:0%
-benchmark for tracking any point in 3D
- 
-
-00:00:24.640 --> 00:00:26.429 align:start position:0%
-benchmark for tracking any point in 3D
-we<00:00:24.800><c> achieve</c><00:00:25.199><c> this</c><00:00:25.400><c> by</c><00:00:25.560><c> leveraging</c><00:00:26.199><c> three</c>
-
-00:00:26.429 --> 00:00:26.439 align:start position:0%
-we achieve this by leveraging three
- 
-
-00:00:26.439 --> 00:00:28.790 align:start position:0%
-we achieve this by leveraging three
-different<00:00:26.760><c> pre-existing</c><00:00:27.400><c> data</c><00:00:27.720><c> sets</c><00:00:28.359><c> ARA</c>
-
-00:00:28.790 --> 00:00:28.800 align:start position:0%
-different pre-existing data sets ARA
- 
-
-00:00:28.800 --> 00:00:31.470 align:start position:0%
-different pre-existing data sets ARA
-digital<00:00:29.160><c> twin</c><00:00:29.640><c> dve</c><00:00:30.160><c> track</c><00:00:30.560><c> and</c><00:00:30.800><c> panoptic</c>
-
-00:00:31.470 --> 00:00:31.480 align:start position:0%
-digital twin dve track and panoptic
- 
-
-00:00:31.480 --> 00:00:34.670 align:start position:0%
-digital twin dve track and panoptic
-Studio<00:00:32.480><c> ARA</c><00:00:33.000><c> digital</c><00:00:33.360><c> twins</c><00:00:33.879><c> contains</c><00:00:34.320><c> real</c>
-
-00:00:34.670 --> 00:00:34.680 align:start position:0%
-Studio ARA digital twins contains real
- 
-
-00:00:34.680 --> 00:00:36.229 align:start position:0%
-Studio ARA digital twins contains real
-videos<00:00:35.120><c> with</c><00:00:35.280><c> aligned</c><00:00:35.719><c> synthetic</c>
-
-00:00:36.229 --> 00:00:36.239 align:start position:0%
-videos with aligned synthetic
- 
-
-00:00:36.239 --> 00:00:38.430 align:start position:0%
-videos with aligned synthetic
-annotations<00:00:37.200><c> such</c><00:00:37.360><c> as</c><00:00:37.520><c> depth</c><00:00:37.800><c> maps</c>
-
-00:00:38.430 --> 00:00:38.440 align:start position:0%
-annotations such as depth maps
- 
-
-00:00:38.440 --> 00:00:42.029 align:start position:0%
-annotations such as depth maps
-segmentation<00:00:39.160><c> maps</c><00:00:39.719><c> and</c><00:00:39.879><c> 3D</c><00:00:40.320><c> bounding</c><00:00:41.039><c> boxes</c>
-
-00:00:42.029 --> 00:00:42.039 align:start position:0%
-segmentation maps and 3D bounding boxes
- 
-
-00:00:42.039 --> 00:00:43.990 align:start position:0%
-segmentation maps and 3D bounding boxes
-drivet<00:00:42.440><c> track</c><00:00:42.719><c> is</c><00:00:42.879><c> derived</c><00:00:43.280><c> from</c><00:00:43.440><c> the</c><00:00:43.559><c> whmo</c>
-
-00:00:43.990 --> 00:00:44.000 align:start position:0%
-drivet track is derived from the whmo
- 
-
-00:00:44.000 --> 00:00:46.950 align:start position:0%
-drivet track is derived from the whmo
-open<00:00:44.320><c> data</c><00:00:44.680><c> set</c><00:00:45.039><c> and</c><00:00:45.239><c> contains</c><00:00:45.640><c> liar</c><00:00:46.280><c> data</c><00:00:46.840><c> as</c>
-
-00:00:46.950 --> 00:00:46.960 align:start position:0%
-open data set and contains liar data as
- 
-
-00:00:46.960 --> 00:00:49.910 align:start position:0%
-open data set and contains liar data as
-well<00:00:47.120><c> as</c><00:00:47.280><c> 3D</c><00:00:47.680><c> bounding</c><00:00:48.280><c> boxes</c><00:00:49.280><c> panoptic</c>
-
-00:00:49.910 --> 00:00:49.920 align:start position:0%
-well as 3D bounding boxes panoptic
- 
-
-00:00:49.920 --> 00:00:52.470 align:start position:0%
-well as 3D bounding boxes panoptic
-studio<00:00:50.399><c> is</c><00:00:50.520><c> a</c><00:00:50.640><c> multi</c><00:00:51.039><c> viw</c><00:00:51.280><c> data</c><00:00:51.640><c> set</c><00:00:52.039><c> on</c><00:00:52.239><c> which</c>
-
-00:00:52.470 --> 00:00:52.480 align:start position:0%
-studio is a multi viw data set on which
- 
-
-00:00:52.480 --> 00:00:54.389 align:start position:0%
-studio is a multi viw data set on which
-Dynamic<00:00:52.960><c> 3D</c><00:00:53.399><c> gaussian</c><00:00:53.960><c> splatting</c>
-
-00:00:54.389 --> 00:00:54.399 align:start position:0%
-Dynamic 3D gaussian splatting
- 
-
-00:00:54.399 --> 00:00:56.069 align:start position:0%
-Dynamic 3D gaussian splatting
-reconstructions<00:00:55.199><c> have</c><00:00:55.359><c> been</c><00:00:55.559><c> obtained</c><00:00:55.960><c> by</c>
+00:00:00.280 --> 00:00:05.680
+We present TapVid-3d a benchmark for tracking any point in 3d.
 
-00:00:56.069 --> 00:00:56.079 align:start position:0%
-reconstructions have been obtained by
- 
+00:00:05.680 --> 00:00:10.360
+Understanding fine-grained motion in 3D facilitates accurate robot manipulation,
 
-00:00:56.079 --> 00:00:59.349 align:start position:0%
-reconstructions have been obtained by
-looten<00:00:56.640><c> Al</c><00:00:57.640><c> we</c><00:00:57.760><c> leverage</c><00:00:58.320><c> the</c><00:00:58.440><c> 3D</c><00:00:58.920><c> data</c><00:00:59.199><c> from</c>
+00:00:10.360 --> 00:00:12.679
+enriches controllable video generation,
 
-00:00:59.349 --> 00:00:59.359 align:start position:0%
-looten Al we leverage the 3D data from
- 
+00:00:12.679 --> 00:00:15.679
+and improves general scene understanding.
 
-00:00:59.359 --> 00:01:01.270 align:start position:0%
-looten Al we leverage the 3D data from
-each<00:00:59.519><c> of</c><00:00:59.640><c> these</c><00:01:00.000><c> three</c><00:01:00.199><c> data</c><00:01:00.480><c> sets</c><00:01:00.760><c> to</c><00:01:00.920><c> obtain</c>
+00:00:15.679 --> 00:00:18.359
+In order to measure progress in 3D motion undertanding,
 
-00:01:01.270 --> 00:01:01.280 align:start position:0%
-each of these three data sets to obtain
- 
+00:00:18.880 --> 00:00:20.519
+we build the TAPVid-3D benchmark
 
-00:01:01.280 --> 00:01:03.709 align:start position:0%
-each of these three data sets to obtain
-ground<00:01:01.600><c> truth</c><00:01:01.960><c> 3D</c><00:01:02.440><c> point</c><00:01:02.719><c> trajectories</c><00:01:03.559><c> and</c>
+00:00:21.320 --> 00:00:24.640
+a benchmark for tracking any point in 3D.
 
-00:01:03.709 --> 00:01:03.719 align:start position:0%
-ground truth 3D point trajectories and
- 
+00:00:24.640 --> 00:00:27.720
+We achieve this by leveraging three different pre-existing datasets:
 
-00:01:03.719 --> 00:01:06.469 align:start position:0%
-ground truth 3D point trajectories and
-build<00:01:04.040><c> tap</c><00:01:04.360><c> vid</c><00:01:04.640><c> 3D</c><00:01:05.439><c> a</c><00:01:05.600><c> large</c><00:01:05.799><c> and</c><00:01:06.040><c> diverse</c>
+00:00:28.359 --> 00:00:32.480
+Aria Digital Twin, DriveTrack and Panoptic Studio.
 
-00:01:06.469 --> 00:01:06.479 align:start position:0%
-build tap vid 3D a large and diverse
- 
+00:00:32.480 --> 00:00:37.200
+Aria Digital Twins contains real videos with aligned synthetic annotations,
 
-00:01:06.479 --> 00:01:08.749 align:start position:0%
-build tap vid 3D a large and diverse
-Benchmark<00:01:07.000><c> for</c><00:01:07.200><c> 3D</c><00:01:07.600><c> Point</c>
+00:00:37.200 --> 00:00:37.800
+such as depth maps,
 
-00:01:08.749 --> 00:01:08.759 align:start position:0%
-Benchmark for 3D Point
- 
+00:00:37.800 --> 00:00:39.160
+segmentation maps,
 
-00:01:08.759 --> 00:01:11.230 align:start position:0%
-Benchmark for 3D Point
-tracking<00:01:09.759><c> our</c><00:01:10.000><c> Benchmark</c><00:01:10.600><c> contains</c><00:01:11.040><c> more</c>
+00:00:39.160 --> 00:00:41.039
+and 3D bounding boxes.
 
-00:01:11.230 --> 00:01:11.240 align:start position:0%
-tracking our Benchmark contains more
- 
+00:00:42.440 --> 00:00:44.680
+DriveTrack is derived from the Waymo Open Dataset,
 
-00:01:11.240 --> 00:01:14.469 align:start position:0%
-tracking our Benchmark contains more
-than<00:01:11.439><c> 4.5</c><00:01:12.320><c> th000</c><00:01:12.720><c> videos</c><00:01:13.439><c> each</c><00:01:13.680><c> up</c><00:01:13.799><c> to</c><00:01:14.000><c> 300</c>
+00:00:45.039 --> 00:00:48.280
+and contains LIDAR data, as well as 3D bounding boxes.
 
-00:01:14.469 --> 00:01:14.479 align:start position:0%
-than 4.5 th000 videos each up to 300
- 
+00:00:49.280 --> 00:00:51.640
+Panoptic Studio is a multiview dataset,
 
-00:01:14.479 --> 00:01:17.350 align:start position:0%
-than 4.5 th000 videos each up to 300
-frames<00:01:15.159><c> containing</c><00:01:15.600><c> up</c><00:01:15.759><c> to</c><00:01:15.960><c> 1024</c><00:01:16.720><c> track</c>
+00:00:52.039 --> 00:00:55.199
+on which dynamic 3D gaussian splatting reconstructions
 
-00:01:17.350 --> 00:01:17.360 align:start position:0%
-frames containing up to 1024 track
- 
+00:00:55.199 --> 00:00:56.640
+have been obtained by Luiten et al.
 
-00:01:17.360 --> 00:01:19.710 align:start position:0%
-frames containing up to 1024 track
-points<00:01:18.360><c> for</c><00:01:18.560><c> more</c><00:01:18.840><c> information</c><00:01:19.360><c> and</c><00:01:19.520><c> for</c>
+00:00:57.640 --> 00:01:00.480
+We leverage the 3D data from each of these three datasets
 
-00:01:19.710 --> 00:01:19.720 align:start position:0%
-points for more information and for
- 
+00:01:00.480 --> 00:01:02.719
+to obtain ground-truth 3D point trajectories,
 
-00:01:19.720 --> 00:01:21.789 align:start position:0%
-points for more information and for
-downloading<00:01:20.200><c> our</c><00:01:20.400><c> data</c><00:01:20.720><c> generation</c><00:01:21.360><c> code</c><00:01:21.680><c> as</c>
+00:01:02.719 --> 00:01:04.640
+and build TAPVid-3D,
 
-00:01:21.789 --> 00:01:21.799 align:start position:0%
-downloading our data generation code as
- 
+00:01:05.439 --> 00:01:09.759
+a large and diverse benchmark for 3D point tracking.
 
-00:01:21.799 --> 00:01:24.069 align:start position:0%
-downloading our data generation code as
-well<00:01:21.960><c> as</c><00:01:22.079><c> our</c><00:01:22.280><c> evaluation</c><00:01:22.920><c> code</c><00:01:23.479><c> please</c><00:01:23.759><c> visit</c>
+00:01:09.759 --> 00:01:12.720
+Our benchmark contains more than 4.5k videos.
 
-00:01:24.069 --> 00:01:24.079 align:start position:0%
-well as our evaluation code please visit
- 
+00:01:12.720 --> 00:01:15.159
+each up to 300 frames,
 
-00:01:24.079 --> 00:01:27.320 align:start position:0%
-well as our evaluation code please visit
-our<00:01:24.320><c> website</c>
+00:01:15.159 --> 00:01:18.360
+containing up to 1024 tracked points.
 
+00:01:18.360 --> 00:01:21.360
+For more information and for downloading our data generation code,
+
+00:01:21.680 --> 00:01:22.920
+as well as our evaluation code,
+
+00:01:22.920 --> 00:01:24.320
+please visit our website.
